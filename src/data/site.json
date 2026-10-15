@@ -1,0 +1,24 @@
+{
+  "university": "Integral University",
+  "department": "Department of Computer Application",
+  "location": "Lucknow, Uttar Pradesh",
+  "academicSession": "2026–2027",
+  "repositoryYear": 2027,
+  "maxTeamMembers": 5,
+  "referenceUrl": "https://iul-ca-projects.vercel.app",
+  "dataSourceUrl": "https://iul-ca-projects.vercel.app/data/projects.json",
+  "retrievedAt": "2026-10-15",
+  "datasetNotice": "Public demo records · awaiting faculty verification",
+  "programmes": [
+    {
+      "id": "BCA",
+      "name": "Bachelor of Computer Applications",
+      "description": "Where strong foundations become practical solutions. Explore undergraduate teams building for the real world."
+    },
+    {
+      "id": "MCA",
+      "name": "Master of Computer Applications",
+      "description": "Deeper thinking. More ambitious applications. Discover postgraduate work across emerging technologies."
+    }
+  ]
+}

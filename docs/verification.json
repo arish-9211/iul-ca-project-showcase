@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-15",
+  "environment": "local production preview; Lighthouse mobile emulation",
+  "lighthouseVersion": "13.5.0",
+  "scores": {
+    "performance": 99,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100
+  },
+  "metrics": {
+    "first-contentful-paint": "1.4\u00a0s",
+    "largest-contentful-paint": "1.8\u00a0s",
+    "total-blocking-time": "20\u00a0ms",
+    "cumulative-layout-shift": "0",
+    "speed-index": "1.4\u00a0s"
+  },
+  "viewportChecks": 48,
+  "viewports": [
+    1440,
+    1024,
+    768,
+    390
+  ],
+  "productionInteractionGroups": 11,
+  "additionalFailureChecks": 2,
+  "unitTests": 19,
+  "uncaughtRuntimeErrors": 0,
+  "deploymentPerformed": false
+}
