@@ -20,13 +20,21 @@ function Navigation({ close }) {
   const { projects } = useProjects();
   return (
     <>
-      <Link className="wordmark" to="/" onClick={close}>
-        <span>INTEGRAL</span>
-        <span>
-          UNIVERSITY<span className="wordmark-dot">.</span>
-        </span>
-        <small>Department of Computer Application</small>
-      </Link>
+     <Link className="wordmark" to="/" onClick={close}>
+  <img
+    src="/iul-logo.png"
+    alt="Integral University Logo"
+    className="university-logo"
+  />
+
+  <div className="wordmark-text">
+    <span>INTEGRAL</span>
+    <span>
+      UNIVERSITY<span className="wordmark-dot">.</span>
+    </span>
+    <small>Department of Computer Application</small>
+  </div>
+</Link>
       <p className="nav-label">THE SHOWCASE</p>
       <nav aria-label="Main navigation" className="nav-links">
         <NavLink to="/" end onClick={close}>

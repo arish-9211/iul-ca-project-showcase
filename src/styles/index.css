@@ -2380,3 +2380,58 @@ button {
   display: block;
   margin-top: 20px;
 }
+/* Integral University logo and branding */
+.wordmark {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 10px;
+}
+
+.university-logo {
+  display: block;
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  flex-shrink: 0;
+  margin: 0;
+}
+
+.wordmark {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 12px;
+}
+
+.wordmark-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 0;
+}
+
+.wordmark-text > span {
+  display: block;
+}
+
+.wordmark-text small {
+  display: block;
+  margin-top: 8px;
+}
+
+.wordmark-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 0;
+}
+
+.wordmark-text > span {
+  display: block;
+}
+
+.wordmark-text small {
+  display: block;
+  margin-top: 8px;
+}
